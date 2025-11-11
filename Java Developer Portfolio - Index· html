@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Dammalapati Kishan Teja — Java Developer. Projects, skills, resume and contact." />
+  <title>Dammalapati Kishan Teja — Java Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* small custom touches */
+    .glass { background: rgba(255,255,255,0.06); backdrop-filter: blur(6px); }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased leading-relaxed">
+  <header class="max-w-5xl mx-auto p-6 flex items-center justify-between">
+    <a href="#home" class="text-xl font-semibold">Dammalapati Kishan Teja</a>
+    <nav class="hidden md:flex gap-6 items-center text-sm">
+      <a href="#projects" class="hover:underline">Projects</a>
+      <a href="#skills" class="hover:underline">Skills</a>
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+      <a href="https://github.com/kishantejadammalapati/portfolio/raw/main/KishanTeja_OnePage_Resume.pdf" class="px-3 py-2 bg-indigo-600 rounded-md text-white">Resume</a>
+    </nav>
+    <button id="navToggle" class="md:hidden px-2 py-1 border rounded-md">Menu</button>
+  </header>
+
+  <main class="max-w-5xl mx-auto p-6">
+    <!-- Hero -->
+    <section id="home" class="grid md:grid-cols-2 gap-8 items-center my-8">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold">Hi, I’m <span class="text-indigo-400">Dammalapati Kishan Teja</span></h1>
+        <p class="mt-4 text-gray-300">Java Developer • Problem solver • Building scalable backend systems & developer tools. I love designing clean architectures and writing reliable, tested code.</p>
+
+        <div class="mt-6 flex gap-3">
+          <a href="#projects" class="px-4 py-2 bg-indigo-600 rounded-md">View Projects</a>
+          <a href="mailto:kishanteja3@gmail.com" class="px-4 py-2 border rounded-md">Contact</a>
+        </div>
+
+        <div class="mt-6 text-sm text-gray-400">
+          <strong>Location:</strong> Guntur, Andhra Pradesh • <strong>Open to:</strong> Intern / Junior roles
+        </div>
+      </div>
+
+      <div class="glass p-6 rounded-2xl shadow-lg">
+        <div class="flex items-center gap-4">
+          <img src="https://via.placeholder.com/110" alt="Profile" class="w-28 h-28 rounded-full object-cover border-2 border-indigo-600" />
+          <div>
+            <div class="text-lg font-semibold">Dammalapati Kishan Teja</div>
+            <div class="text-sm text-gray-300">Java | Spring Boot | SQL | REST APIs</div>
+            <div class="mt-2">
+              <a href="https://github.com/kishantejadammalapati" target="_blank" class="text-sm mr-3">GitHub</a>
+              <a href="https://www.linkedin.com/in/kishantejadammalapati" target="_blank" class="text-sm">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6">
+          <h4 class="text-sm text-gray-300 uppercase">Core Focus</h4>
+          <ul class="mt-2 text-gray-200 text-sm list-disc pl-5">
+            <li>Backend development with Java & Spring</li>
+            <li>RESTful APIs, Microservices basics</li>
+            <li>SQL & data modelling</li>
+            <li>Unit testing & CI basics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="my-12">
+      <h2 class="text-2xl font-bold">Selected Projects</h2>
+      <p class="text-gray-400 mt-2">3–6 projects that show breadth and depth — architecture, code samples, and live demos (when possible).</p>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <!-- Project 1 -->
+        <article class="bg-gray-800 p-5 rounded-lg shadow">
+          <h3 class="font-semibold text-lg">Kanban Task Manager</h3>
+          <p class="text-sm text-gray-300 mt-2">A full-stack task manager with drag-and-drop Kanban board built using Java Spring Boot (backend) and a lightweight frontend. Focus: concurrency-safe task updates and persistent history.</p>
+          <ul class="text-xs text-gray-400 mt-3 list-disc pl-5">
+            <li>Tech: Java, Spring Boot, JPA, MySQL, REST</li>
+            <li>My role: Designed API, implemented task services, unit tests</li>
+            <li>Demo / Code: <a href="#" class="underline">GitHub</a> | <a href="#" class="underline">Live</a></li>
+          </ul>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="bg-gray-800 p-5 rounded-lg shadow">
+          <h3 class="font-semibold text-lg">Student Attendance System</h3>
+          <p class="text-sm text-gray-300 mt-2">Desktop-backed system to record and export attendance with role-based access for teachers and admins.</p>
+          <ul class="text-xs text-gray-400 mt-3 list-disc pl-5">
+            <li>Tech: Java (Swing), JDBC, MySQL</li>
+            <li>My role: End-to-end implementation, CSV export, basic reporting</li>
+            <li>Code: <a href="#" class="underline">GitHub</a></li>
+          </ul>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="bg-gray-800 p-5 rounded-lg shadow">
+          <h3 class="font-semibold text-lg">Weather Dashboard (API)</h3>
+          <p class="text-sm text-gray-300 mt-2">A microservice that ingests a public weather API, normalizes data, and exposes a compact API used by a simple frontend.</p>
+          <ul class="text-xs text-gray-400 mt-3 list-disc pl-5">
+            <li>Tech: Java, Spring WebFlux, REST, Docker</li>
+            <li>My role: Implemented API client, caching layer, Dockerized app</li>
+            <li>Code / Demo: <a href="#" class="underline">GitHub</a></li>
+          </ul>
+        </article>
+
+        <!-- Project 4 (example) -->
+        <article class="bg-gray-800 p-5 rounded-lg shadow">
+          <h3 class="font-semibold text-lg">Mini E‑commerce Cart (OOP)</h3>
+          <p class="text-sm text-gray-300 mt-2">A Java console app demonstrating OOP, design patterns, and basic inventory management.</p>
+          <ul class="text-xs text-gray-400 mt-3 list-disc pl-5">
+            <li>Tech: Core Java, Collections, File I/O</li>
+            <li>My role: Implemented cart logic, checkout, and unit tests</li>
+            <li>Code: <a href="#" class="underline">GitHub</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="my-12">
+      <h2 class="text-2xl font-bold">Skills</h2>
+      <div class="mt-4 grid sm:grid-cols-2 gap-6">
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <h4 class="font-semibold">Languages & Frameworks</h4>
+          <div class="mt-3 text-sm text-gray-300">Java, Spring Boot, Spring MVC, Spring Data JPA, Java Concurrency, JDBC</div>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <h4 class="font-semibold">Databases & Tools</h4>
+          <div class="mt-3 text-sm text-gray-300">MySQL, PostgreSQL, Redis (basic), Git, Maven/Gradle, Docker (basic)</div>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <h4 class="font-semibold">Testing & CI</h4>
+          <div class="mt-3 text-sm text-gray-300">JUnit, Mockito, GitHub Actions (basic), Integration tests</div>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <h4 class="font-semibold">Soft Skills</h4>
+          <div class="mt-3 text-sm text-gray-300">Problem-solving, Communication, Teamwork, Time Management</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="my-12 bg-gray-850 p-6 rounded-xl">
+      <h2 class="text-2xl font-bold">About Me</h2>
+      <p class="text-gray-300 mt-3">I’m a Java developer passionate about backend systems, REST APIs, and writing clean, testable code. Focused on scalable architectures, performance optimization, and hands-on learning. I enjoy turning requirements into clean, testable code and implementing pragmatic solutions. Currently learning microservices patterns and improving cloud deployment knowledge.</p>
+
+      <div class="mt-4 text-sm text-gray-400">
+        <strong>Education:</strong> B.Tech in Computer Science Engineering, NRI Institute of Technology • 2025
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="my-12">
+      <h2 class="text-2xl font-bold">Contact</h2>
+      <p class="text-gray-400 mt-2">Want to collaborate or hire? Reach out — I reply quickly.</p>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <div class="bg-gray-800 p-5 rounded-lg">
+          <h4 class="font-semibold">Email</h4>
+          <a href="mailto:kishanteja3@gmail.com" class="text-sm text-indigo-300">kishanteja3@gmail.com</a>
+
+          <h4 class="font-semibold mt-4">Social</h4>
+          <div class="flex gap-3 mt-2 text-sm">
+            <a href="https://github.com/kishantejadammalapati" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/kishantejadammalapati" target="_blank">LinkedIn</a>
+            <a href="#blog">Blog</a>
+          </div>
+        </div>
+
+        <form class="bg-gray-800 p-5 rounded-lg" onsubmit="handleSubmit(event)">
+          <label class="block text-sm text-gray-300">Name</label>
+          <input id="name" required class="w-full mt-1 p-2 rounded-md bg-gray-900 text-gray-100 border border-gray-700" />
+
+          <label class="block text-sm text-gray-300 mt-3">Email</label>
+          <input id="email" type="email" required class="w-full mt-1 p-2 rounded-md bg-gray-900 text-gray-100 border border-gray-700" />
+
+          <label class="block text-sm text-gray-300 mt-3">Message</label>
+          <textarea id="message" rows="4" required class="w-full mt-1 p-2 rounded-md bg-gray-900 text-gray-100 border border-gray-700"></textarea>
+
+          <div class="mt-4 flex gap-2">
+            <button type="submit" class="px-4 py-2 bg-indigo-600 rounded-md">Send</button>
+            <button type="reset" class="px-4 py-2 border rounded-md">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="mt-12 text-center text-gray-500 text-sm">
+      © Dammalapati Kishan Teja • Built with Java & ❤️ • Last updated: November 2025
+    </footer>
+  </main>
+
+  <script>
+    // simple nav toggle for small screens
+    document.getElementById('navToggle').addEventListener('click', () => {
+      const nav = document.querySelector('header nav');
+      if (!nav) return;
+      nav.classList.toggle('hidden');
+    });
+
+    function handleSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+      // fallback: use mailto if no backend
+      const subject = encodeURIComponent('Portfolio contact from ' + name);
+      const body = encodeURIComponent(message + '\n\n--\n' + name + '\n' + email);
+      window.location.href = `mailto:kishanteja3@gmail.com?subject=${subject}&body=${body}`;
+    }
+  </script>
+</body>
+</html>
